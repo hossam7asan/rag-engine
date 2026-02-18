@@ -1,10 +1,80 @@
-# Python-generated files
+# =========================
+# 🐍 Python
+# =========================
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
 build/
 dist/
+*.egg-info/
+.eggs/
+*.py[oc]
 wheels/
-*.egg-info
 
-# Virtual environments
-.venv
+# =========================
+# 🧪 Testing
+# =========================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# 🌱 Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# 🔐 Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# 🗄️ Database
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# 📦 uv specific
+# =========================
+# لو عايز تحتفظ بالـ lock file سيبه
+# uv.lock   ← ❌ لا تمسحه لو عايز reproducible builds
+
+# =========================
+# 🧠 VSCode / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# 🍎 macOS
+# =========================
+.DS_Store
+
+# =========================
+# 🐳 Docker
+# =========================
+*.log
+docker-compose.override.yml
+
+# =========================
+# 🔥 Logs
+# =========================
+*.log
+logs/
+
